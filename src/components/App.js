@@ -9,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <MovieCard title={title} genres={genresArr} />
+      {/* passing down props from the parent component */}
+      <MovieCard title={title} posterSrc={posterURL} genres={genresArr} />
     </div>
   );
 }
